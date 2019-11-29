@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Amostra selecionada de emissores relevantes no Twitter que estão diretamente relacionados a produção e/ou a veículos produtores de conteúdos de desinformação e fake news, relacionadas a situação do atual governo brasileiro.\n\nAmostra selecionada de perfis no twitter, com a seguinte query:Brubas OR opropriolavo OR opropriopontes OR leandroruschel OR silviogrimaldo OR taiguara_sousa OR direita_sp OR EuSouMBC OR MAvancaBrasil_ OR Biakicis OR CarlaZambelli17 OR AbrahamWeint OR ArthurWeint OR filgmartin OR Bernardopkuster OR daniel_l_lopez OR FabioClickTime OR brasileirinh0s OR brasil_paralelo OR criticanac OR sensoinc OR terca_livre OR allantercalivre OR pauloeneas OR Lets_Dex OR Ch0r0te OR isentoes2 OR Bolsoneas OR danielPMERJ OR DouglasGarcia OR filipebarrost OR carteiroreaca\nN\u003d3K tweets\n",
+    "intro": "Análise de redes em torno de agentes relacionados a Fake News com amostra selecionada de principais influenciadores de direita do Twitter.",
+    "title": "Top Influenciadores - Redes Antissociais"
+  },
+  "legend": {
+    "edgeLabel": "Interações",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

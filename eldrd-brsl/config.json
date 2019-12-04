@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Amostra selecionada em diferentes plataformas, com a seguinte query: \"Eldorado Celulose\" OR eldoradocelulose OR \"eldorado celulose\" OR \"Eldorado Brasil\" OR (eldorado AND JBS) OR (Eldorado AND Batista) OR (eldorado AND joesley) OR (eldorado AND paper) OR (eldorado AND j\u0026F) OR (J\u0026F AND Excellence) OR \"Paper Excellence\" OR PExcellenceBR OR \"J\u0026F Investimentos\" OR EldoradoBrasil\nN\u003d15K tweets\n",
+    "intro": "Amostra e usuários e menções em torno do universo Eldorado Brasil, Paper Excellence e J\u0026F Investimentos.",
+    "title": "Rede Eldorado Brasil"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Usuários"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

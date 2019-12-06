@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Amostra monitorada no Twitter respeitando a seguinte query:\"Joice Hasselmann\" OR #JoiceTraidora OR #JoiceLixo OR joicehasselmann OR \"Gabinete do Ódio\" OR GabinetedoÓdio OR \"CPI das Fake news\" OR \"CPMI das Fake news\" OR cpidasfakenews\n\n100K itens, de 04 a 05 de dezembro.",
+    "intro": "Nós maiores  e mais escuros representam maior grau de saída. O grau de saída representaa menções feitas (tweets produzidos) por um determinado usuários. Assim, os nós maiores e escuros são aqueles usuários mais participativos/ativos na conversa em volume de publicações nas últimas 24h. (04 a 05/dezembro)",
+    "title": "CPMI das Fake News (04/dez)"
+  },
+  "legend": {
+    "edgeLabel": "Interações",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Usuários"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Grau de saída",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

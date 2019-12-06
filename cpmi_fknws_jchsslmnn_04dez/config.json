@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "Amostra monitorada no Twitter respeitando a seguinte query:\"Joice Hasselmann\" OR #JoiceTraidora OR #JoiceLixo OR joicehasselmann OR \"Gabinete do Ódio\" OR GabinetedoÓdio OR \"CPI das Fake news\" OR \"CPMI das Fake news\" OR cpidasfakenews\n\n100K itens, de 04 a 05 de dezembro.",
-    "intro": "100K de interações consolidadas em torno da sessão de Joice Hasselmann na CPMI das Fake News em 04/dezembro.",
+    "intro": "Nós maiores e mais escuros representam maior grau de saída. O grau de saída representaa menções feitas (tweets produzidos) por um determinado usuários. Assim, os nós maiores e escuros são aqueles usuários mais participativos/ativos na conversa em volume de publicações nas últimas 24h. (04 a 05/dezembro)",
     "title": "CPMI das Fake News (04/dez)"
   },
   "legend": {
@@ -19,7 +19,7 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "color",
+    "groupSelectorAttribute": "Grau de saída",
     "hoverBehavior": "default"
   },
   "informationPanel": {

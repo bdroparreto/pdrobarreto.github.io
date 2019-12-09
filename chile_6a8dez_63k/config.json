@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Amostra monitorada no Twitter respeitando a seguinte query:ValdebenitoNata OR albertoplaza OR clauarredondom OR monlaferte OR hectormorals OR mjossandon OR joseantoniokast OR GiorgioJackson OR gabrielboric OR Josefcolagos OR jtgazmuri OR PamJiles OR mauriciohofman OR CNNChile OR TVN OR Chilevisión OR adnradiochile OR ElMercurio_cl OR elliberocl OR biobio OR thecliniccl OR elmostrador OR canal13 OR to:Cooperativa OR from:Cooperativa OR meganoticiascl OR latercera OR emol.com OR from:emol OR to:emol OR AgriculturaFM OR pauta_cl OR to:lun OR from:lun\n\n63K itens, de 06 a 08 de dezembro.",
+    "intro": "Rede de interações e polarização entre influenciadores de esquerda e direita no Chile, durante o período de 06 a 08/dezembro de 2019",
+    "title": "Chile plebiscito"
+  },
+  "legend": {
+    "edgeLabel": "Interações",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

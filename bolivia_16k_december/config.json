@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query used: JeanineAnez OR carlosdmesag OR evoespueblo OR OscarOrtizA OR tutoquiroga OR andronicopueblo OR nadia_beller OR amaliapando OR AleSerrate OR lauralurojas OR jcpolitic OR CFValverde OR Marco_Pumari_A OR SDoriaMedina OR leopoldoff OR yerkogarafulic OR MonasterioTomas OR RubenCostasA OR josegary OR MarielaPVD OR eldelagora OR garcialinera OR moron_erik OR SaavedraMamen OR VladimirPenaV OR LuisFerCamachoV OR germanantelov OR edmundoarp OR egon_bauer OR Adriana1989sa OR luisrevillah\n\n16K tweets.",
+    "intro": "Network of interactions and polarization between left and right Twitter influencers in Bolivia, December 18-19, 2019",
+    "title": "Bolivia Social Network Analysis (SNA)"
+  },
+  "legend": {
+    "edgeLabel": "Mentions",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influencers"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

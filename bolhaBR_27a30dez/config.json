@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Categoria de emissores monitorados:Políticos, movimentos populares, imprensa e influenciadores digitais.\nTwitter query e amostra de emissores monitorados: jairbolsonaro OR MBLivre OR opropriolavo OR DaniloGentili OR jdoriajr OR wilsonwitzel OR ronaldocaiado OR JornalOGlobo OR valoreconomico OR folha OR Estadao OR LulaOficial OR MarceloFreixo OR ggreenwald OR o_antagonista OR joicehasselmann OR reinaldoazevedo OR blogdosakamoto OR felipeneto OR ozehdeabreu OR GuilhermeBoulos OR FMouraBrasil OR PastorMalafaia OR xicosa OR VillaMarcovilla OR cirogomes OR MCrivella OR joaoamoedonovo OR MST_Oficial OR majorolimpio OR revistaforum\n28K tweets.",
+    "intro": "Análise de Redes Sociais de amostra selecionada de emissores influentes, no Twitter, na produção de conteúdo político no Brasil. Período de coleta: 27 a 30/dez. ",
+    "title": "ARS Bolha BR 27a30dez"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

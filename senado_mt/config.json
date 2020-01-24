@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Categoria de emissores monitorados: Perfis de palamentares, agentes políticos e usuários/influenciadores que entre si no período.\nTwitter query e amostra de emissores monitorados: Carloshbfavaro OR blairomaggi OR otavianopivetta OR olhardireto OR _rdnews OR Midia_News OR g1matogrosso  OR JoseMedeirosMT OR NortNoticias OR MinutoMT OR 24horasnews_ OR TaquesIgor OR gazetamt OR sen_wellington OR pnb_online OR tvca OR SoNoticiasMT OR emanuelzinhomt OR SenadoraSelma OR PaesAntero OR VGNoticias OR DrLeonardomt OR nelsonbarbudo OR JaymeCampos251 OR primeirahoramt OR sigaolivre OR SigaFolhamax OR PressDenise OR xuxudalmolin OR Coronel_Barbosa OR senar_mt\n\nN\u003d 14K tweets",
+    "intro": "Análise de Redes Sociais de amostra selecionada de perfis de emissores influentes no contexto do Senado do Estado do Mato Grosso, no Twitter. Período de coleta: 14 a 24/jan. ",
+    "title": "Senado MT 2020 "
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

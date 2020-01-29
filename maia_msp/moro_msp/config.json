@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: (sf_Moro OR \"Sérgio Moro\" OR \"Ministro Moro\") AND (\"ministério da Segurança\" OR \"segurança pública\" OR \"ministerio de seguranca publica\" OR \"ministerio da justiça\" OR \"ministerio de justiça\" OR \"separação de ministerio\" OR \"dissolução de ministerio\" OR SegurançacomMoro)\nN\u003d6K tweets",
+    "intro": "Análise de Redes Sociais de conversas mencionando Sérgio Moro e o contexto discussão sobre Ministério da Justiça no Twitter. Período de coleta: 25 a 28/jan. ",
+    "title": "Sérgio Moro e Ministério da Segurança Públcia"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

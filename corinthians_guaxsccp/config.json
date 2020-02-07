@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: meutimao OR sccp OR 10neto OR teleco1910 OR futebol_info OR desimpedidos OR vessoni OR _sccpnews OR A_Corinthians OR cavalinho OR SCCPOTimedoPovo OR mosqueteiro1910 OR basecorinthiana OR tuesorgulho_ OR essediafoilouco OR desimpedidos OR andrerizek OR miltonneves OR radiocoringao OR GUAxSCCP OR HojeTemCorinthians OR povotime1910 OR loucosdobandoo OR eotimedopovo_ OR missotimao OR @corinthians\nN\u003d 85K tweets",
+    "intro": "Análise de Redes Sociais de conversas mencionando a partida da pré-libertadores e o time do Corinthians para detecção de emissores influenciadores e formadores de comunidades no Twitter. Período de coleta: 03 a 07/fev",
+    "title": "Análise de Redes Sociais GUAxSCCP"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

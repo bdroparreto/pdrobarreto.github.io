@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: tere_marinovic OR melnicksergio OR CarmenTuitera OR jtgazmuri OR lucyanaah OR AldoDuqueSantos OR carreragonzalo OR Rayenaraya OR PatoFdez OR huasa1 OR mirnaschindler OR chechohirane OR jschaulsohn OR javiparada OR joseantoniokast OR soledadalvear OR Carolina_Toha OR maylwino OR AlbertoMayol OR mbachelet OR HernanLarrain OR AXELKAISER OR luislarrainlyd OR ipoduje OR cbellolio OR baradit OR patricionavia OR johnywalkerROJO OR fernando_atria OR kennethbunker OR dmimica OR catafernandezc\nN\u003d48K tweets",
+    "intro": "Análisis de Redes Sociales de muestra seleccionada de influencers políticos chilenos, en Twitter. De 27/02 hacia el 03/03.",
+    "title": "Chile - Influencers Políticos"
+  },
+  "legend": {
+    "edgeLabel": "Citaciones",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

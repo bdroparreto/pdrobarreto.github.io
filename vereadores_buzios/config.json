@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"Leandro Bope\" OR sargentoleandr1 OR \"Gladys Nunes\" OR (\"Alexandre Martins\" AND Buzios) OR \"Mirinho Braga\" OR mirinhobraga OR (\"Joice Costa\" AND Buzios) OR joicevereadora OR (\"Lorram Gomes\" AND Buzios) OR lorrambz OR (\"Henrique Gomes\" AND Buzios) OR \"Dom de Búzios\" OR domdebuzios OR \"Gugu de Nair\" OR gugudenair OR (\"Miguel Pereira\" AND Buzios) OR \"Gugu Braga\" OR (\"Alexandre Verdade\" AND Buzios) OR \"Bebeto Karolla\" OR karollabz OR bkarolla OR folhadebuzios OR rj_buzios OR cidadaobuzios\nN\u003d288 tweets",
+    "intro": "Análise de Redes Sociais de amostra selecionada de vereadores a Búzios, veículos de notícias locais e, o contexto de eleições municipais na cidade, pelo Twitter. De 27/02 a 06/março",
+    "title": "Vereadores de Búzios no Twitter"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Influenciadores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

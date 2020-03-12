@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"(Chile AND rechazo) OR yovotorechazo OR yoapruebo OR yorechazo OR rechazocrece OR rechazonuevaconstitucion OR chiledesperto OR (Chile AND apruebo) OR lacallerechaza OR nuevaconstitucionparachile OR votorechazo OR vina2020 OR yorechazonuevaconstitucion OR rechazoestafaconstituyente\"\nN\u003d300K tweets",
+    "intro": "Análisis de Redes Sociales de las principales hashtags de polarización del plebiscito chileno, en Twitter. De 27/02 hacia el 12/03.",
+    "title": "Chile - Población"
+  },
+  "legend": {
+    "edgeLabel": "Interacciones",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfiles"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

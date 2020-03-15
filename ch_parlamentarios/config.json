@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"allamand OR iallendebussi OR alvaroelizalde OR guidogirardi OR carolinagoic OR guillier OR felipeharboe OR felipekast OR lagosweber OR ivanmoreirab OR senadornavarro OR mjossandon OR ximerincon OR jvanbiobio OR pepe_auth OR jbellolio OR gabrielboric OR KarolCariola OR Tono_Coloma OR MiguelCrispiS OR lcruzcoke OR desbordes OR Mayafernandeza OR Cami_FloresO OR Hugo_Gutierrez_ OR PepaHoffmann OR GiorgioJackson OR PamJiles OR nonaossandon OR Diego_Schalper OR camila_vallejo OR gonzalowinter\"\nN\u003d156K tweets",
+    "intro": "Análisis de Redes Sociales de muestra seleccionada de parlamentarios chilenos, en Twitter. De 27/02 hacia el 15/03.",
+    "title": "Chile - Parlamentarios"
+  },
+  "legend": {
+    "edgeLabel": "Interacciones",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfiles"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

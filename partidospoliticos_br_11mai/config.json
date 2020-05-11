@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"somosalianca OR democratas OR partidonovo30 OR PCdoB_Oficial OR PDT_Nacional OR liderancaphs OR MDB_Nacional OR ppnac OR pps23 OR prbgaucho OR prosnacional OR prtboficial OR PSBNacional40 OR pscnacional OR ppdpsd OR PSDBoficial OR psl_nacional OR psol50 OR ptbrasil OR ptb14 OR avante70rj OR 19podemos OR partidoverde OR rede_18\"\nN\u003d 93K tweets",
+    "intro": "Análise de Redes Sociais das menções e atividades de todos os partidos políticos brasileiros que estão ativos no Twitter, ao menos por seu perfil oficial. De 05 a 11/maio.",
+    "title": "Partidos Políticos BR (Maio/20)"
+  },
+  "legend": {
+    "edgeLabel": "Interação por menção",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfil"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

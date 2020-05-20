@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"Cooperativa OR Emol OR biobio OR latercera OR CNNChile OR thecliniccl OR T13 OR 24HorasTVN OR La_Segunda OR TVN OR adnradiochile OR chilevision OR canal13 OR AgriculturaFM OR RadioDuna OR DFinanciero OR RadioCarolina OR 40ChileOficial OR tv_mauricio OR tv_monica OR mxperez OR SoledadOnetto OR jumastorga OR NestorAburto OR DMatamala OR alvarez_monse OR tv_Amaro OR IvanVal20TAZ OR matiasdelrio OR consuelosaav OR carolaurrejola OR bdelamaza\"\nN\u003d600K",
+    "intro": "Análisis de Redes Sociales acerca de conversaciones y menciones a las cuentas de los principales perfis de periodismo nacional de Chile, en Twitter, de 05 hacia el 18 de Mayo.",
+    "title": "Grandes Medios Chile (Mayo/20)"
+  },
+  "legend": {
+    "edgeLabel": "Interação por menção",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfil"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

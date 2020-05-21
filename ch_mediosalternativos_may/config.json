@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"subelaradio OR eldesconcierto OR GAMBA_CL OR PiensaPrensa OR InterferenciaCL OR LID_Chile OR RNuevoMundo OR RedMiVoz OR difamadores OR fayerwayer OR rvfradiopopular OR elliberocl OR elmostrador OR ciper OR el_dinamo OR El_Ciudadano OR cambio21cl OR FortinOficial OR corrupcionchile OR uchileradio OR radiousach OR elsiglochile OR uinformado OR soychilecl OR DiarioConst OR infogatecl OR nacioncl OR POUSTA OR Chileokulto OR defrente_cl OR RevistaEyS OR OpinionRevista\"\nN\u003d500K tweets",
+    "intro": "Análisis de Redes Sociales acerca de conversaciones y menciones a las cuentas de los principales perfiles del periodismo alternativo de Chile, en Twitter, de 05 hacia el 18 de Mayo.",
+    "title": "Medios Alternativos Chile (Mayo/20)"
+  },
+  "legend": {
+    "edgeLabel": "Menciones",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfiles"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

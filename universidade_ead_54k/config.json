@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"(UNIP OR UNICSUL OR FMU OR \"SÃO JUDAS\" OR \"MACKENZIE\" OR  \"UNISA SANTO AMARO\" OR \"UNINOVE\" OR fmuoficial OR mackenzie1870 OR usjtoficial OR uninoveoficial OR faculdade OR faculdades OR universidade OR universidades) AND (\"EAD\" OR \"Ensino a Distancia\" OR \"Educação a Distancia\" OR \"ensinoadistancia\" OR \"educaçãoadistancia\")\"\nN\u003d54K",
+    "intro": "Amostra de conversas mencionando o contexto de Universidades e Faculdades com Ensino a Distância (EAD), no Twitter, de maio a junho.",
+    "title": "Universidades EAD"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfis"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"yoanisanchez OR jdanielferrer OR AGRodiles OR CamilaAcostaCu OR menosveinte OR LMOAlcantara OR constantincuba OR marthabroque OR lamalaletra OR ov_sanisidro OR ilianahcuba OR Luz_Cuba OR LuisMorlote OR AlpidioAlonsoG OR RandyAlonsoFalc OR RalAntonioCapo1 OR GuerreroCuba OR lajovencuba OR HaroldCardenasL OR JimmydeCuba OR CastroEspinM OR AbelPrieto11 OR fernandorojas_6 OR SusydeCuba2\"\nN\u003d200K tweets\n",
+    "intro": "Amostra de conversas mencionando amostra selecionada de emissores relevantes no contexto de conversas de atualidades e políticas de Cuba, no Twitter, durante o mês de junho.",
+    "title": "ARS Cuba"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfis"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

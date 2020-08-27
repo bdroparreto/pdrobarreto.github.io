@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Pedro Barreto"
+  },
+  "text": {
+    "more": "Twitter query: \"((\"hospital municipal\" OR \"posto de saúde\" OR \"guarda municipal\" OR (buraco AND rua) OR (luz AND rua) OR transporte OR onibus OR bus OR rodoviaria OR busao OR iptu OR \"escola municipal\" OR creche OR \"coleta seletiva\" OR \"coleta de lixo\" OR \"limpeza urbana\" OR   merenda OR prefeitura OR prefeito OR SAMU OR CMEI OR UBS OR \"bilhete eletronico\" OR \"saude publica\" OR \"educação pública\") AND city:\"BRA.AM.Manaus\") OR ((prefeitura AND Manaus) OR (prefeito AND manaus))\"\nN\u003d3K",
+    "intro": "Amostra de conversas mencionando o contexto de atualidades e políticas públicas em Manaus, durante o mês de agosto, no Twitter.",
+    "title": "ARS Manaus Segmentado"
+  },
+  "legend": {
+    "edgeLabel": "Menções",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Perfis"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
